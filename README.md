@@ -17,4 +17,4 @@ Criteria for selection:
 * high sequence diversity
 * low percentage of gaps
 
-[http://www.github.com/01.test.sto.tgz](`01.test.sto.tgz`)
+[https://github.com/sillitoe/orengo-baker-funfams/blob/master/dataset/01.test/01.test.sto.tgz](`dataset/01.test/01.test.sto.tgz`)
