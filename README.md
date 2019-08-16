@@ -19,3 +19,18 @@ Selection criteria:
 * reasonable sequence diversity
 * not too high gap percentage
 
+## Notes
+
+### Alignment format
+
+These files should adhere to the general [Stockholm format](https://en.wikipedia.org/wiki/Stockholm_format) rules, so you should be able to use any parser to convert them to FASTA.
+
+We found that the alignment model within [BioPython](https://biopython.org/wiki/AlignIO) didn't provide the flexibility we needed so we added an alignment module to [`cathpy`](https://github.com/UCL/cathpy) that might be useful (see [`cathpy.align`](https://cathpy.readthedocs.io/en/latest/align.html)).
+
+Converting from STOCKHOLM to FASTA with this package:
+
+```python
+from cathpy.align import Align
+aln = Align.from_stockholm('path/to/aln.sto')
+aln.write_fasta('path/to/aln.fa')
+```
