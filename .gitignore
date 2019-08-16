@@ -1,0 +1,3 @@
+dataset/01.test/*.sto
+dataset/01.test/01.test.alignsum.log
+dataset/01.test/01.test.dsv
