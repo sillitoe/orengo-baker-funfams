@@ -1,3 +1,11 @@
 dataset/01.test/*.sto
 dataset/01.test/01.test.alignsum.log
 dataset/01.test/01.test.dsv
+
+dataset/02.medium/alignments/
+cath.v4_2_0.funfam.json
+02.medium.log
+
+venv/
+__pycache__
+**.pyc

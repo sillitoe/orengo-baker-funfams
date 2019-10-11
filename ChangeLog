@@ -1,0 +1,14 @@
+# Changelog
+
+## v0.1.0
+
+*Release date: 16/08/2019*
+
+* initial dataset: 01.test
+
+## v0.2.0
+
+*Release date: 11/10/2019*
+
+* dataset: 02.medium
+* added script to generate dataset directly from API (and download alignments)
